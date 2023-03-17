@@ -1,10 +1,10 @@
 body {
-    background-color: rgba(177, 232, 246, 0.51);
+    background-color: lightsalmon;
   }
   
   h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-color: darkblue;
+    border-color: brown;
     border-width: 9px;
     border-style: dotted;
     border-radius: 10px;
@@ -16,8 +16,8 @@ body {
   
   img {
     align-content: left;
-    height: 100px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     margin: 10px;
     border-color: saddlebrown;
     border-width: 4px;
@@ -25,6 +25,18 @@ body {
     border-radius: 20px;
   }
   
+img#portrait {
+    width: 300px;
+    height: 300px;
+    border-width: 0px;
+}
+
+img#portrait2 {
+    width: 300px;
+    height: 200px;
+    border-width: 4px;
+}
+
   p {
     text-align: left;
     font-family: sans-serif;
@@ -45,4 +57,9 @@ body {
 
   ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  a{
+    font-family: cursive;
+    font-size: larger;
   }
